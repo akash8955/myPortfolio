@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Singh Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/automotozine-Logo-2021.png" />
+    <!-- for aos animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <!-- for google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- for typed text cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- navbar -->
+    <header class="header-wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/portfolio-logo.png" alt="logo" height="35px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav" data-aos="fade-up"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- home section -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row flex-lg-row flex-column-reverse">
+          <div class="col-lg-6 text-center py-5">
+            <div class="home-content">
+              <div class="text-1">Hello, my name is</div>
+              <div class="text-2">Akash Singh</div>
+              <div class="text-3">
+                And I'm a <span class="typing"></span>
+              </div>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/akash-singh16072002?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/918955826957"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/akash_shekhawat.01?igsh=MWg4bDZ4ejQ0N3VpYw=="><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <button type="button" class="hire-me-btn main-btn">Hire Me</button>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4 mg-lg-0 ps-lg-4 text-center py-5">
+            <div class="home-img" data-aos="fade-down">
+              <img src="images/home-img.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hire-me">
+        <div class=" hire-details detail wrapper">
+          <button type="button" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+          <div class="hire-detail right">
+            <h3>Hire me for your next project</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="79954d48-22fd-40a2-87da-80e45b8f8bbe">
+              <div class="fields">
+                  <div class="field name">
+                      <input type="text" name="name" placeholder="Name" required>
+                  </div>
+                  <div class="field email">
+                      <input type="email" name="email" placeholder="Email" required>
+                  </div>
+              </div>
+              <div class="field">
+                  <input type="text" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="field textarea">
+                  <textarea name="message" cols="30" rows="10" placeholder="Explain What You Want" required></textarea>
+              </div>
+              <div class="button-area text-center py-5">
+                  <button class="main-btn" type="submit">Send message</button>
+
+              </div>
+            </form>
+  
+          </div>
+      </div>
+    </section>
+    <!-- About section -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-4">
+            <h2 class="title"><span>About me , </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="container about-content pt-5">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-start py-5">
+            <div class="column left" data-aos="flip-left">
+              <img src="images/about-img.jpg" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-6 mb-4 mg-lg-0 ps-lg-4  py-5"
+          >
+            <div class="column right" data-aos="flip-right">
+              <div class="text">
+                I'm Akash and I'm a <span class="typing-2"></span>
+              </div>
+              <p>
+                I'm Akash Singh, a passionate web developer specializing in
+                creating dynamic and beautiful web pages. I am persuing Bachelor's
+                degree in Computer Science from Jagganath University and have
+                over one years of experience in web development. I've worked on
+                numerous projects ranging from small business websites to
+                large-scale e-commerce platforms.. My expertise includes HTML,
+                CSS, JavaScript, and React.js. I have a strong foundation in
+                front-end development and am also proficient in back-end
+                technologies like Node.js and MongoDB. When I'm not coding, I
+                love reading sci-fi novels, and experimenting with new
+                recipes in the kitchen.
+              </p>
+              <a class="main-btn mt-3 text-center" href="https://online.flippingbook.com/view/1071790628/" target="_blank"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Services section -->
+    <section id="services" class="services">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-4">
+            <h2 class="title"><span>My Services , </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="services-container">
+        <div class="services-box" data-aos="fade-up">
+          <div class="service-info">
+            <h4 class="text-center">UI Design</h4>
+          <p>I provide UI/UX design services to create visually appealing and user-friendly digital experiences. UI (User Interface) focuses on designing attractive layouts, buttons, icons, and other elements, while UX (User Experience) ensures smooth navigation and ease of use. My goal is to make websites and apps intuitive, engaging, and accessible. I improve usability, enhance user interactions, and create designs that align with brand identity. Using modern design tools and best practices, I craft responsive and high-quality interfaces that help businesses attract users, increase conversions, and build strong digital experiences.</p>
+          </div>
+        </div>
+        <div class="services-box" data-aos="fade-down">
+          <div class="service-info">
+            <h4>Frontend Development</h4>
+          <p>I offer frontend web development services to build fast, responsive, and visually appealing websites. I specialize in creating user-friendly interfaces using HTML, CSS, and JavaScript, ensuring that websites look great and function smoothly on all devices. My focus is on performance, accessibility, and modern design principles. I also work on website debugging, testing, and optimization to enhance user experience. By combining coding skills with UI/UX best practices, I help businesses create engaging websites that attract visitors, improve conversions, and deliver seamless online experiences.</p>
+          </div>
+        </div>
+        <div class="services-box" data-aos="fade-left">
+          <div class="service-info">
+            <h4>Backend Development</h4>
+          <p>I provide backend development services to build the core functionality of websites and applications. Backend development focuses on server-side logic, databases, and APIs that power the frontend. I work with programming languages like Node.js, Python, or PHP to handle data storage, user authentication, and business logic. My goal is to ensure fast, secure, and scalable applications. I also optimize performance, fix bugs, and integrate third-party services. By combining backend efficiency with frontend usability, I help businesses create reliable and high-performing digital solutions for a seamless user experience.</p>
+          </div>
+        </div>
+        <div class="services-box" data-aos="fade-right">
+          <div class="service-info">
+            <h4>WEbsite Testing</h4>
+          <p>I provide website testing services to ensure that websites function correctly, load quickly, and deliver a smooth user experience. I test for bugs, errors, broken links, and performance issues across different browsers and devices. My focus is on usability, security, and responsiveness, ensuring the site works seamlessly for all users. I also conduct testing for accessibility, SEO, and overall functionality. By identifying and fixing issues early, I help businesses improve website quality, enhance user satisfaction, and ensure a flawless digital experience for their audience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skill section -->
+    <section id="skills" class="skills">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-4">
+            <h2 class="title"><span>My Skills , </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="container skills-content pt-5">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-start px-5">
+            <div class="column left" data-aos="flip-up">
+              <div class="text">My creative skills & experiences.</div>
+                    <p>
+                       
+                        
+                        I am a skilled web developer with expertise in both front-end and back-end technologies. On the front-end, I excel in HTML5, CSS3, and JavaScript, creating responsive and dynamic web pages with a strong focus on user experience. My proficiency with React.js allows me to build robust single-page applications that are both efficient and scalable. On the back-end, I have substantial experience with Node.js and Express, enabling me to develop server-side applications and RESTful APIs. I am adept at managing databases using MongoDB, ensuring efficient data handling and storage.</p>
+                        <button type="button" class="read-btn main-btn text-center">Read More</button>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 mb-4 mg-lg-0 ps-lg-4  px-5 mt-5"
+          >
+            <div class="column right " data-aos="flip-down">
+              <div class="bars">
+                <div class="info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+                <div class="line html"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>CSS</span>
+                    <span>60%</span>
+                </div>
+                <div class="line css"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>JavaScript</span>
+                    <span>80%</span>
+                </div>
+                <div class="line js"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>Bootstrap</span>
+                    <span>80%</span>
+                </div>
+                <div class="line php"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>React</span>
+                    <span>70%</span>
+                </div>
+                <div class="line mysql"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="read-me">
+        <div class="read-details detail wrapper">
+          <button type="button" class="close-btn1"><i class="fa-solid fa-xmark"></i></button>
+          <div class="read-detail">
+            <h3 class="text-center"><span>My Creative Skills & Experiences</span></h3>
+            <p>As a frontend web developer, I excel in website design, testing, debugging, and error correction. My expertise includes performance optimization, responsive UI/UX, collaboration with teams, and building reusable components. Skilled in modern technologies like React, Next.js, TypeScript, and Tailwind, I ensure high-performance, accessible, and visually appealing web applications while maintaining security and scalability. 🚀</p>
+            <div class="readme-info ps-5">
+              <h4 class="">Technologies Known</h4>
+              <p>
+                HTML 5
+                <br />CSS 3
+                <br />JavaScript(ES6+)
+                <br />React.js
+                <br />Bootstrap
+                <br />TypeScript
+                <br />RESTful APIs
+                <br />Version control(Git, GitHub)
+                <br />Webpack
+              </p>
+              <h4>Technologies Known</h4>
+              <p>
+                HTML 5
+                <br />CSS 3
+                <br />JavaScript(ES6+)
+                <br />React.js
+                <br />Bootstrap
+                <br />TypeScript
+                <br />RESTful APIs
+                <br />Version control(Git, GitHub)
+                <br />Webpack
+              </p>
+              <h4>Technologies Known</h4>
+              <p>
+                HTML 5
+                <br />CSS 3
+                <br />JavaScript(ES6+)
+                <br />React.js
+                <br />Bootstrap
+                <br />TypeScript
+                <br />RESTful APIs
+                <br />Version control(Git, GitHub)
+                <br />Webpack
+              </p>
+              <h4>Website Design</h4>
+              <p>
+                UI/UX Best Practices
+                <br />Responsive Design
+                <br />Wireframing & Prototyping
+                <br />Animations & Transitions 
+                <br />Dark Mode & Theming
+              </p>
+              <h4>Website Testing</h4>
+              <p>
+                Cross-Browser Testing
+                <br />Performance Testing
+                <br />Accessibility (a11y) Testing 
+                <br />Unit & Integration Testing 
+                <br />User Testing & Feedback
+              </p>
+              <h4>Website Debugging</h4>
+              <p>
+                Chrome DevTools / Firefox DevTools
+                <br />Console & Network Logs
+                <br />Error Tracking Tools
+              </p>
+              <h4> Error Correction & Optimization</h4>
+              <p>
+                Code Refactoring
+                <br />Minimizing Unused Code & Assets 
+                <br />Lazy Loading & Code Splittin
+                <br />SEO Optimization 
+              </p>
+              <h4>Website Maintenance & Performance Optimization</h4>
+              <p>
+                Regular Updates
+                <br />Monitoring Performance
+                <br />Fixing Broken Links & Errors
+                <br />Enhancing Security
+              </p>
+              <h4>Collaboration & Project Management</h4>
+              <p>
+                Version Control & Branching Strategies
+                <br />Working with Designers & Backend Developers
+                <br />Using Project Management Tools
+              </p>
+            </div>
+  
+          </div>
+      </div>
+
+    </section>
+    <!-- project section -->
+    <section id="project" class="project text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-4">
+            <h2 class="title"><span>My Projects , </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="project-slider pt-5" data-aos="fade-down-right">
+        <div class="card project-item" data-aos="zoom-in">
+          <img src="images/project1.png" class="card-img-top project-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span>Hotel Website</span></h5>
+            <p class="card-text">Fully functional hotel booking website with html,css and bootstrap with multi funtional</p>
+            <a href="https://akash8955.github.io/Hotel-Booking-Website/" class="btn btn-primary main-btn ">view Project</a>
+          </div>
+        </div>
+        <div class="card project-item" data-aos="zoom-out">
+          <img src="images/Pink Modern Website Coming Soon Instagram Post.png" class="card-img-top project-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span>Food Recepie</span></h5>
+            <p class="card-text">Fully functional food recepie search website with the help of javascript API.</p>
+            <a href="https://akash8955.github.io/AkashRecepie/" class="btn btn-primary main-btn ">View Project</a>
+          </div>
+        </div>
+        <div class="card project-item" data-aos="zoom-in-left">
+          <img src="images/project3.png" class="card-img-top project-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span>Project Name</span></h5>
+            <p class="card-text">The working of project is being in ready queue position very soon it will be live.</p>
+            <a href="#" class="btn btn-primary main-btn ">View Project</a>
+          </div>
+        </div>
+        <div class="card project-item" data-aos="zoom-in-right">
+          <img src="images/project3.png" class="card-img-top project-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span>Project Name</span></h5>
+            <p class="card-text">The working of project is being in ready queue position very soon it will be live.</p>
+            <a href="#" class="btn btn-primary main-btn ">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h2 class="title"><span>Contact Me , </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="container contact-content mt-5">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mg-lg-0 ps-lg-4 px-5 mt-5">
+            <div class="column left" data-aos="zoom-in-up">
+              <div class="text">Get in Touch</div>
+              <p>
+                  How can I help you ?
+              </p>
+              <p>
+                  Feel free to send messages...
+              
+              </p>
+              <div class="icons">
+                  <div class="row-icon">
+                      <i class="fas fa-user"></i>
+                      <div class="info">
+                          <div class="head">Name</div>
+                          <div class="sub-title">Abhishek Pal</div>
+                      </div>
+                  </div>
+                  <div class="row-icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="info">
+                          <div class="head">Address</div>
+                          <div class="sub-title">Jaipur, Rajasthan</div>
+                      </div>
+                  </div>
+                  <div class="row-icon">
+                      <i class="fas fa-envelope"></i>
+                      <div class="info">
+                          <div class="head">Email</div>
+                          <div class="sub-title"> en.abhipal@gmail.com</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          </div>
+          <div class="col-lg-6 mb-4 mg-lg-0 ps-lg-4 text-center px-5 mt-5">
+            <div class="column right" data-aos="zoom-in-down">
+              <div class="text">Message me</div>
+              <div class="contact-box">
+
+              </div>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="79954d48-22fd-40a2-87da-80e45b8f8bbe">
+                  <div class="fields">
+                      <div class="field name">
+                          <input type="text" name="name" placeholder="Name" required>
+                      </div>
+                      <div class="field email">
+                          <input type="email" name="email" placeholder="Email" required>
+                      </div>
+                  </div>
+                  <div class="field">
+                      <input type="text" name="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="field textarea">
+                      <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                  </div>
+                  <div class="button-area">
+                      <button class="main-btn" type="submit">Send message</button>
+
+                  </div>
+              </form>    
+              </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- footer section -->
+    <footer>
+     <a href=""> Created By Abhishek Pal |  <i class="far fa-copyright"></i> 2024 All rights reserved.</a>
+    </footer> 
+
+
+
+    <!-- bootsrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- for aos animation script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1200,
+        delay: 50,
+        easing: "ease-in-out"
+      });
+    </script>
+    <!-- main js file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
