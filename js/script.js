@@ -33,7 +33,7 @@ var typed = new Typed(".typing", {
 });
 
 var typed2 = new Typed(".typing-2", {
-  strings: ["Frontend Web Developer", "UI/UX Designer", "Freelancer"], // Fixed typo
+  strings: ["Frontend Web Developer", "Data Analyst", "UI/UX Designer", "Freelancer"], // Fixed typo
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
