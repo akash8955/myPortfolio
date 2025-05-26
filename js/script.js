@@ -26,7 +26,7 @@ navBar.forEach((a) => {
 
 // Typing text animation
 var typed = new Typed(".typing", {
-  strings: ["Frontend Web Developer", "UI/UX Designer", "Freelancer"], // Fixed typo
+  strings: ["Frontend Web Developer", "Data Analyst", "UI/UX Designer", "Freelancer"], // Fixed typo
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
